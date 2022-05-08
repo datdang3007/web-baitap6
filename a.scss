@@ -1,0 +1,291 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+    .container {
+        display: flex;
+        height: 80px;
+        align-items: center;
+        justify-content: space-between;
+        a.logo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+            i {
+                margin-right: 5px;
+                font-size: 41px;
+            }
+        }
+        .menu {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            a {
+                color: white;
+                font-weight: bold;
+                font-size: 14px;
+                &:hover {
+                    color: #1ed760;;
+                }
+            }
+            .menu-left {
+                border-right: 1.5px solid white;
+                a {
+                    margin-right: 42px;
+                }
+            }
+            .menu-right {
+                a {
+                    margin-left: 42px;
+                }
+            }
+        }
+    }
+}
+
+.content1 {
+    background-color: rgb(153, 51, 153);
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 635px;
+        .content-img {
+            width: 100%;
+            height: 100%;
+            background: url(/images/content1.webp) no-repeat right center;
+            background-size: 400px;
+        }
+        .content-package {
+            height: 75%;
+            h3 {
+                font-size: 15px;
+            }
+            a {
+                color: white;
+            }
+            span {
+                display: inline-block;
+                color: white;
+                font-weight: bold;
+            }
+            span.package-describe1 {
+                margin: 40px 0px 25px;
+                font-size: 50px;
+            }
+            span.package-describe2 {
+                font-size: 23px;
+                font-weight: 500;
+            }
+            a.package-active {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: black;
+                font-weight: 600;
+                font-size: 14px;
+                margin: 35px 0px;
+                width: 200px;
+                height: 50px;
+                border-radius: 50px;
+                &:hover {
+                    transform: scale(1.035);
+                }
+            }
+            p {
+                font-size: 12px;
+                a {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.content2 {
+    width: 100%;
+    background: url(https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg) no-repeat right;
+    background-color: rgb(41, 65, 171);
+    .container {
+        height: 600px;
+        .content-free {
+            padding-top: 80px;
+            h3, span {
+                color: #1ed760;
+            }
+            span {
+                display: inline-block;
+                font-weight: bold;
+            }
+            h3 {
+                font-size: 15px;
+            }
+            span.text-content1 {
+                margin: 30px 0px;
+                font-size: 53px;
+            }
+            span.text-content2 {
+                font-size: 23px;
+                font-weight: 500;
+            }
+            a.package-active-free {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: rgb(41, 65, 171);
+                background-color: #1ed760;
+                font-weight: 600;
+                font-size: 14px;
+                margin-top: 45px;
+                width: 190px;
+                height: 50px;
+                border-radius: 50px;
+                &:hover {
+                    background-color: #43E57D;
+                    transform: scale(1.035);
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color: black;
+    .container {
+        position: relative;
+        height: 530px;
+        .content {
+            position: relative;
+            display: flex;
+            padding-top: 80px;
+            a.logo {
+                margin-right: 55px;
+                display: flex;
+                width: 140px;
+                height: 40px;
+                color: white;
+                align-items: center;
+                justify-content: center;
+                i {
+                    margin-right: 5px;
+                    font-size: 41px;
+                }
+            }
+            ul {
+                padding-top: 17.5px;
+                margin-right: 95px;
+                li.content-name {
+                    color: #919496;
+                    margin-top: 0px;
+                    font-size: 13px;
+                    font-weight: 900;
+                }
+                li.content-link {
+                    margin-top: 20px;
+                    font-size: 15px;
+                    font-weight: 400;
+                    color: white;
+                    &:hover {
+                        color: #1ed760;
+                    }
+                }
+            }
+            .contact {
+                position: absolute;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                top: 30%;
+                right: 0px;
+                a {
+                    color: white;
+                    &:hover {
+                        color: #1ed760;
+                    }
+                    .bg-box {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 54px;
+                        height: 54px;
+                        border-radius: 50%;
+                        margin-left: 15px;
+                        background-color: rgba(58, 58, 58, 0.6);
+                        i {
+                            font-weight: 400;
+                        }
+                        i.ins {
+                            font-size: 27px;
+                        }
+                        i.twit {
+                            font-size: 20px;
+                        }
+                        i.fb {
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+        }
+        .end {
+            position: absolute;
+            bottom: 60px;
+            width: 100%;
+            height: 50px;
+            .left-content {
+                position: absolute;
+                display: flex;
+                bottom: 0px;
+                a {
+                    font-size: 12px;
+                    color: #919496;
+                    margin-right: 20px;
+                    &:hover {
+                        color: #1ed760;
+                    }
+                }
+            }
+            .right-content {
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+                a,p {
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+                .country {
+                    position: absolute;
+                    bottom: 25px;
+                    right: 0px;
+                    display: flex;
+                    &:hover {
+                        a {
+                            color: #1ed760;
+                        }
+                        i {
+                            color: #919496;
+                        }
+                    }
+                    a {
+                        color: #919496;
+                    }
+                    i {
+                        margin-right: 7.5px;
+                    }
+                }
+                p {
+                    color: #919496;
+                }
+            }
+        }
+    }
+}

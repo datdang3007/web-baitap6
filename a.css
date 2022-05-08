@@ -1,0 +1,408 @@
+html {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: black;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container a.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+}
+
+header .container a.logo i {
+  margin-right: 5px;
+  font-size: 41px;
+}
+
+header .container .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container .menu a {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+header .container .menu a:hover {
+  color: #1ed760;
+}
+
+header .container .menu .menu-left {
+  border-right: 1.5px solid white;
+}
+
+header .container .menu .menu-left a {
+  margin-right: 42px;
+}
+
+header .container .menu .menu-right a {
+  margin-left: 42px;
+}
+
+.content1 {
+  background-color: #993399;
+}
+
+.content1 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 635px;
+}
+
+.content1 .container .content-img {
+  width: 100%;
+  height: 100%;
+  background: url(/images/content1.webp) no-repeat right center;
+  background-size: 400px;
+}
+
+.content1 .container .content-package {
+  height: 75%;
+}
+
+.content1 .container .content-package h3 {
+  font-size: 15px;
+}
+
+.content1 .container .content-package a {
+  color: white;
+}
+
+.content1 .container .content-package span {
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+}
+
+.content1 .container .content-package span.package-describe1 {
+  margin: 40px 0px 25px;
+  font-size: 50px;
+}
+
+.content1 .container .content-package span.package-describe2 {
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.content1 .container .content-package a.package-active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 35px 0px;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.content1 .container .content-package a.package-active:hover {
+  -webkit-transform: scale(1.035);
+          transform: scale(1.035);
+}
+
+.content1 .container .content-package p {
+  font-size: 12px;
+}
+
+.content1 .container .content-package p a {
+  text-decoration: underline;
+}
+
+.content2 {
+  width: 100%;
+  background: url(https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg) no-repeat right;
+  background-color: #2941ab;
+}
+
+.content2 .container {
+  height: 600px;
+}
+
+.content2 .container .content-free {
+  padding-top: 80px;
+}
+
+.content2 .container .content-free h3, .content2 .container .content-free span {
+  color: #1ed760;
+}
+
+.content2 .container .content-free span {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.content2 .container .content-free h3 {
+  font-size: 15px;
+}
+
+.content2 .container .content-free span.text-content1 {
+  margin: 30px 0px;
+  font-size: 53px;
+}
+
+.content2 .container .content-free span.text-content2 {
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.content2 .container .content-free a.package-active-free {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #2941ab;
+  background-color: #1ed760;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 45px;
+  width: 190px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.content2 .container .content-free a.package-active-free:hover {
+  background-color: #43E57D;
+  -webkit-transform: scale(1.035);
+          transform: scale(1.035);
+}
+
+footer {
+  background-color: black;
+}
+
+footer .container {
+  position: relative;
+  height: 530px;
+}
+
+footer .container .content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 80px;
+}
+
+footer .container .content a.logo {
+  margin-right: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 140px;
+  height: 40px;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .container .content a.logo i {
+  margin-right: 5px;
+  font-size: 41px;
+}
+
+footer .container .content ul {
+  padding-top: 17.5px;
+  margin-right: 95px;
+}
+
+footer .container .content ul li.content-name {
+  color: #919496;
+  margin-top: 0px;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+footer .container .content ul li.content-link {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+}
+
+footer .container .content ul li.content-link:hover {
+  color: #1ed760;
+}
+
+footer .container .content .contact {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 30%;
+  right: 0px;
+}
+
+footer .container .content .contact a {
+  color: white;
+}
+
+footer .container .content .contact a:hover {
+  color: #1ed760;
+}
+
+footer .container .content .contact a .bg-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  margin-left: 15px;
+  background-color: rgba(58, 58, 58, 0.6);
+}
+
+footer .container .content .contact a .bg-box i {
+  font-weight: 400;
+}
+
+footer .container .content .contact a .bg-box i.ins {
+  font-size: 27px;
+}
+
+footer .container .content .contact a .bg-box i.twit {
+  font-size: 20px;
+}
+
+footer .container .content .contact a .bg-box i.fb {
+  font-size: 22px;
+}
+
+footer .container .end {
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+  height: 50px;
+}
+
+footer .container .end .left-content {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  bottom: 0px;
+}
+
+footer .container .end .left-content a {
+  font-size: 12px;
+  color: #919496;
+  margin-right: 20px;
+}
+
+footer .container .end .left-content a:hover {
+  color: #1ed760;
+}
+
+footer .container .end .right-content {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+footer .container .end .right-content a, footer .container .end .right-content p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+footer .container .end .right-content .country {
+  position: absolute;
+  bottom: 25px;
+  right: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .container .end .right-content .country:hover a {
+  color: #1ed760;
+}
+
+footer .container .end .right-content .country:hover i {
+  color: #919496;
+}
+
+footer .container .end .right-content .country a {
+  color: #919496;
+}
+
+footer .container .end .right-content .country i {
+  margin-right: 7.5px;
+}
+
+footer .container .end .right-content p {
+  color: #919496;
+}
+/*# sourceMappingURL=a.css.map */
