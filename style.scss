@@ -1,34 +1,32 @@
+@import "./flex";
+
 html {
     font-family: 'Poppins', sans-serif;
     color: white;
 }
 
 .container {
-    width: 60%;
+    width: 1150px;
+    // width: 60%;
     margin: 0 auto;
 }
 
 header {
     background-color: black;
     .container {
-        display: flex;
         height: 80px;
-        align-items: center;
-        justify-content: space-between;
         a.logo {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
             color: white;
             i {
                 margin-right: 5px;
                 font-size: 41px;
             }
+            span {
+                color: rgba(white,0.4);
+                font-size: 10px;
+            }
         }
         .menu {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
             a {
                 color: white;
                 font-weight: bold;
@@ -55,9 +53,6 @@ header {
 .content1 {
     background-color: rgb(153, 51, 153);
     .container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
         height: 635px;
         .content-img {
             width: 100%;
@@ -87,9 +82,6 @@ header {
                 font-weight: 500;
             }
             a.package-active {
-                display: flex;
-                justify-content: center;
-                align-items: center;
                 background-color: black;
                 font-weight: 600;
                 font-size: 14px;
@@ -138,9 +130,6 @@ header {
                 font-weight: 500;
             }
             a.package-active-free {
-                display: flex;
-                justify-content: center;
-                align-items: center;
                 color: rgb(41, 65, 171);
                 background-color: #1ed760;
                 font-weight: 600;
@@ -169,15 +158,16 @@ footer {
             padding-top: 80px;
             a.logo {
                 margin-right: 55px;
-                display: flex;
                 width: 140px;
                 height: 40px;
                 color: white;
-                align-items: center;
-                justify-content: center;
                 i {
                     margin-right: 5px;
                     font-size: 41px;
+                }
+                span {
+                    color: rgba(white,0.4);
+                    font-size: 10px;
                 }
             }
             ul {
@@ -201,9 +191,6 @@ footer {
             }
             .contact {
                 position: absolute;
-                display: flex;
-                align-items: center;
-                justify-content: center;
                 top: 30%;
                 right: 0px;
                 a {
@@ -212,9 +199,6 @@ footer {
                         color: #1ed760;
                     }
                     .bg-box {
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
                         width: 54px;
                         height: 54px;
                         border-radius: 50%;

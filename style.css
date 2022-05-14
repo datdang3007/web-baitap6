@@ -1,10 +1,45 @@
+.f-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.f-center-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.f-center-around {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 html {
   font-family: 'Poppins', sans-serif;
   color: white;
 }
 
 .container {
-  width: 60%;
+  width: 1150px;
   margin: 0 auto;
 }
 
@@ -13,28 +48,10 @@ header {
 }
 
 header .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   height: 80px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 header .container a.logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   color: white;
 }
 
@@ -43,16 +60,9 @@ header .container a.logo i {
   font-size: 41px;
 }
 
-header .container .menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+header .container a.logo span {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 10px;
 }
 
 header .container .menu a {
@@ -82,15 +92,6 @@ header .container .menu .menu-right a {
 }
 
 .content1 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   height: 635px;
 }
 
@@ -130,15 +131,6 @@ header .container .menu .menu-right a {
 }
 
 .content1 .container .content-package a.package-active {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   background-color: black;
   font-weight: 600;
   font-size: 14px;
@@ -199,15 +191,6 @@ header .container .menu .menu-right a {
 }
 
 .content2 .container .content-free a.package-active-free {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   color: #2941ab;
   background-color: #1ed760;
   font-weight: 600;
@@ -243,23 +226,19 @@ footer .container .content {
 
 footer .container .content a.logo {
   margin-right: 55px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 140px;
   height: 40px;
   color: white;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 footer .container .content a.logo i {
   margin-right: 5px;
   font-size: 41px;
+}
+
+footer .container .content a.logo span {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 10px;
 }
 
 footer .container .content ul {
@@ -287,15 +266,6 @@ footer .container .content ul li.content-link:hover {
 
 footer .container .content .contact {
   position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   top: 30%;
   right: 0px;
 }
@@ -309,15 +279,6 @@ footer .container .content .contact a:hover {
 }
 
 footer .container .content .contact a .bg-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   width: 54px;
   height: 54px;
   border-radius: 50%;
@@ -405,4 +366,4 @@ footer .container .end .right-content .country i {
 footer .container .end .right-content p {
   color: #919496;
 }
-/*# sourceMappingURL=a.css.map */
+/*# sourceMappingURL=style.css.map */
